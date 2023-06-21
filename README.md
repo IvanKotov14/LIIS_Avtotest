@@ -16,7 +16,7 @@
 
 В первую очередь скачиваем библиотеки pip install -r requirements.txt
 
-python -m pytest -s tests/ "Сюда пишем тест который мы будет прогонять, пускай будет" test_message_a_book_by_id.py
+python -m pytest -s tests/ "Сюда пишем тест который мы будет прогонять, пускай будет" test_getting_a_message_by_id
 
 python -m pytest -s tests/ "Если оставить так, то запустяться все тесты"
 
